@@ -10,7 +10,7 @@ import static io.github.bonigarcia.wdm.DriverManagerType.CHROME;
 public class DriverManager {
 
     public WebDriver driver;
-
+    
     public WebDriver createChromeDriver(){
         ChromeDriverManager.getInstance(CHROME).setup();
         driver = new ChromeDriver();
